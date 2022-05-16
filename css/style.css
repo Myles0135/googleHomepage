@@ -1,0 +1,159 @@
+body {
+    overflow-x: hidden;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.title-links:link:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: black;
+}
+
+.about {
+    float: left;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline;
+
+}
+
+.bottom-bar {
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #EFEFEF;
+    overflow-x: hidden;
+}
+
+.gmail {
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+    display: inline;
+}
+
+.icon1 {
+    position: sticky;
+    left: 32vw;
+    top: 280px;
+    color: #B2B2B2;
+}
+
+.images {
+    float: right;
+    margin-top: 1%;
+    display: inline;
+}
+
+input[type=text] {
+    width: 32%;
+    height: 14%;
+    padding: 2vh 4vw;
+    border: 1px solid #DDDDDD;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    text-align: left;
+}
+
+input[type=text]:hover {
+    -webkit-box-shadow: 0px 2px 5px 0px #DDDDDD; 
+    box-shadow: 0px 2px 5px 0px #DDDDDD;
+}
+
+.leftlinks {
+    display: inline-block;
+    padding: 15px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #70757a;
+}
+
+.rightlinks {
+    float: right;
+    padding: 15px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #70757a;
+    margin-right: 0.8%;
+}
+
+
+.showcaseButton {
+    display: inline-block;
+    text-align: center;
+    background-color: #F9F9F9;
+    color: black;
+    border-radius: 0px;
+    font-size: 15px;
+    padding: 8px;
+    width: 120px;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.showcaseButton2 {
+    display: inline-block;
+    text-align: center;
+    background-color: #F9F9F9;
+    color: black;
+    border-radius: 0px;
+    font-size: 15px;
+    padding: 8px;
+    width: 120px;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.showcaseButons:hover {
+    text-decoration: none;
+}
+
+.showcase-logo {
+    width: 272px;
+    height: 92px;
+    left: 50%;
+    margin: auto;
+    display: block;
+    padding-top: 9.5%;
+    padding-bottom: 2%;
+}
+
+.showcase {
+    text-align: center;
+}
+
+.spacer {
+    margin-left: 10%;
+}
+
+.store {
+    float: left;
+    margin-top: 1%;
+    display: inline;
+}
+
+.title-links {
+    color: black;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13.5px;
+}
